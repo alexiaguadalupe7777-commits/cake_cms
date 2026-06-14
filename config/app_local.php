@@ -43,12 +43,12 @@ return [
         'className' => \Cake\Database\Connection::class,
         'driver' => \Cake\Database\Driver\Mysql::class,
         'persistent' => false,
-
-        'host' => 'cakecms.railway.internal',
-        'port' => '3306',
-        'username' => 'root',
-        'password' => 'BqaqXcHskiyFVTznqXVDRafZnOSBKWlF',
-        'database' => 'railway',
+        'url' => env('DATABASE_URL'),
+        'host' => 'MYSQLHOST',
+        'port' => 'MYSQPORT',
+        'username' => 'MYSQLUSER',
+        'password' => 'MYSQLPASSWORD',
+        'database' => 'MYSQLDATABASE',
 
         'encoding' => 'utf8mb4',
         'timezone' => 'UTC',
