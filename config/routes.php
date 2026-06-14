@@ -72,6 +72,15 @@ use Cake\Routing\RouteBuilder;
     ]);
 });
 
+$builder->connect('/login', [
+    'controller' => 'Users',
+    'action' => 'login',
+]);
+
+$builder->connect('/logout', [
+    'controller' => 'Users',
+    'action' => 'logout',
+]);
 $builder->fallbacks();
 
         /*
