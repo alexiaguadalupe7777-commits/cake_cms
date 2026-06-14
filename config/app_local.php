@@ -47,7 +47,7 @@ return [
         'host' => 'cakecms.railway.internal',
         'port' => '3306',
         'username' => 'root',
-        'password' => 'rGPBoBQWdbHhqLGRXWqzmXHJFMYtMprD',
+        'password' => 'BqaqXcHskiyFVTznqXVDRafZnOSBKWlF',
         'database' => 'railway',
 
         'encoding' => 'utf8mb4',
