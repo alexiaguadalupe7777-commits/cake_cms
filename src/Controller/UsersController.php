@@ -113,13 +113,13 @@ public function login()
 
     if ($result->isValid()) {
         return $this->redirect([
-            'controller' => 'Articles',
-            'action' => 'index',
+            'controller' => 'Users',
+            'action' => 'index'
         ]);
     }
 
     if ($this->request->is('post') && !$result->isValid()) {
-        $this->Flash->error(__('Invalid email or password'));
+        $this->Flash->error(__('Correo o contraseña incorrectos.'));
     }
 }
 
